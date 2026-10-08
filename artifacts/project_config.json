@@ -1,0 +1,34 @@
+{
+    "project_name": "NASA C-MAPSS Predictive Maintenance and RUL Prediction",
+    "dataset": "NASA C-MAPSS FD001",
+    "final_model": "125-Capped LSTM",
+    "features": [
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9",
+        "sensor_11",
+        "sensor_12",
+        "sensor_13",
+        "sensor_14",
+        "sensor_15",
+        "sensor_17",
+        "sensor_20",
+        "sensor_21"
+    ],
+    "sequence_length": 30,
+    "RUL_cap": 125,
+    "test_metrics": {
+        "MAE": 11.259665489196777,
+        "RMSE": 15.602695995066146,
+        "R2": 0.859025776386261
+    },
+    "model_file": "final_rul_lstm_125.keras",
+    "scaler_file": "lstm_scaler.pkl",
+    "preprocessing_file": "preprocessing_info.json",
+    "prediction_file": "final_rul_predictions.csv",
+    "performance_file": "final_model_performance.csv"
+}

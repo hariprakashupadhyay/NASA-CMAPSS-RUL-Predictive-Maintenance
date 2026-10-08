@@ -153,12 +153,25 @@ NASA-CMAPSS-RUL-Predictive-Maintenance/
 ├── requirements.txt
 ├── .gitignore
 │
+├── NASA-CMAPSS-RUL-Predictive-Maintenance/
+│
+├── README.md
+├── NASA_CMAPSS_RUL_Predictive_Maintenance.ipynb
+├── requirements.txt
+├── .gitignore
+│
 ├── models/
-│   └── .gitkeep
+│   ├── .gitkeep
+│   └── final_rul_lstm_125.keras
 │
 ├── artifacts/
-│   └── .gitkeep
+│   ├── .gitkeep
+│   ├── lstm_scaler.pkl
+│   ├── preprocessing_info.json
+│   └── project_config.json
 │
 └── results/
-    └── .gitkeep
+    ├── .gitkeep
+    ├── final_rul_predictions.csv
+    └── final_model_performance.csv
 ```
